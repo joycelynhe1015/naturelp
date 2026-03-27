@@ -1,7 +1,7 @@
-streamlit==1.24.0
-numpy<2
+streamlit
+numpy
 pandas
 nltk
 gensim
 altair
-scikit-learn<1.3
+scikit-learn
