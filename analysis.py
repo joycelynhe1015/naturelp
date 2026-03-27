@@ -1,3 +1,8 @@
+st.set_page_config(page_title='语义分析综合测试平台', layout='wide')
+# 一些老版本Streamlit偶发因为流式组件更新导致DOM removeChild错
+# 强制开启最新组件模式
+st.experimental_set_query_params(dev="1")
+
 import streamlit as st
 import pandas as pd
 # Missing scikit-learn in Python environment can cause ModuleNotFoundError: No module named 'sklearn'
