@@ -2,6 +2,6 @@ streamlit
 numpy
 pandas
 nltk
-gensim
+gensim==4.3.2
 altair
 scikit-learn
